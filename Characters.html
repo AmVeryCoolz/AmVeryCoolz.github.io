@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>Characters</title>
+        <script src="breakout.js"></script>
+    <style>
+        body {
+    text-align: left;
+    overflow: hidden;
+    }
+
+    #board {
+    background-image: url(HolyCow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: 10px solid skyblue;
+    border-left: 15px solid skyblue;
+    border-right: 15px solid skyblue;
+    }
+
+    #board{
+        z-index: -5;
+    }
+
+
+    #abc{
+            position: absolute;
+            width: 40vw;
+            left: 30vw;
+            top: 60vh;
+            color: rgb(6, 124, 179);
+            font-size: 40px;
+            font-family: helvetica;
+            text-align: center;
+            text-shadow: 1px 1px black;
+            }
+    #abc{
+        z-index: 1;
+    }
+
+    #t{
+            position: absolute;
+            width: 20vw;
+            left: 40vw;
+            top: 70vh;
+            color: rgb(25, 78, 143);
+            font-size: 40px;
+            font-family: helvetica;
+            text-align: center;
+            text-shadow: 1px 1px black;
+            
+            }
+
+    #t:hover{
+            position: absolute;
+            width: 20vw;
+            left: 40vw;
+            top: 70vh;
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+            font-family: helvetica;
+            text-align: center;
+            text-shadow: 1px 1px black;
+            text-decoration: underline;
+            }
+
+        #b{
+            position: absolute;
+            width: 40vw;
+            left: 70vw;
+            top: 0vh;
+            color: rgb(25, 78, 143);
+            font-size: 40px;
+            font-family: helvetica;
+            text-align: center;
+            text-shadow: 1px 1px black;
+            
+            }
+
+        #b:hover{
+            position: absolute;
+            width: 40vw;
+            left: 70vw;
+            top: 0vh;
+            color: rgb(0, 0, 0);
+            font-size: 40px;
+            font-family: helvetica;
+            text-align: center;
+            text-shadow: 1px 1px black;
+            text-decoration: underline;
+            }
+
+    </style>
+    </head>
+
+    <body>
+        <canvas id="board"></canvas>
+    </body>
+
+    <div><br>
+        <div id="abc"> Move left or right arrows to Move</div>
+
+    <span><a href="Second_Page.html">
+            <div id="t">Go back?</div>
+
+    <span><a href="CharactersB.html">
+                <div id="b">Give Up?</div>
+</html>
