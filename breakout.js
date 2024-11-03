@@ -1,7 +1,7 @@
 //board
 let board;
-let boardWidth = 1450;
-let boardHeight = 710;
+let boardWidth = 1400;
+let boardHeight = 700;
 let context; 
 
 //players
