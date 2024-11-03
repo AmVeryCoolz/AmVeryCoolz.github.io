@@ -1,6 +1,6 @@
 //board
 let board;
-let boardWidth = 1400;
+let boardWidth = 1320;
 let boardHeight = 700;
 let context; 
 
